@@ -47,50 +47,31 @@ body {
 .logo {
     margin-left: 16px;
 }
-.header__button--right {
+.header-button__right {
     margin-left: auto;
+}
+.header-button__right--icon {
+    margin: auto;
+    width: 20px;
+    height: 20px;
     background-image: url('../img/iconFind.svg');
     background-position: center;
     background-repeat: no-repeat;
 }
-.header__button--left {
+.header-button__left--icon {
+    margin: auto;
+    width: 20px;
+    height: 20px;
     background-image: url('../img/iconX.svg');
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .nav {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     border: 1px solid black;
     padding: 24px 0;
 }
-.nav-button {
-    display: flex;
-    justify-content: flex-start;
-    background: white;
-    font-family: 'TTLakes', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-    color: #1B1C21;
-    padding: 10px 0;
-    margin-bottom: 15px;
-    transition: all 0.4s linear;
-}
-.nav-button__text {
-    margin-left: 24px;
-    color: inherit;
-}
-.nav-button:hover {
-    -webkit-box-shadow:0px 7px 8px #bababa, inset 0px -11px 4px #ebebeb, 0px -7px 8px #bababa, inset 0px 11px 4px #ebebeb; 
-    -moz-box-shadow: 0px 7px 8px #bababa,  inset 0px -11px 4px #ebebeb, 0px -7px 8px #bababa,  inset 0px 11px 4px #ebebeb;  
-    box-shadow:0px 7px 8px #bababa, inset 0px -11px 4px #ebebeb, 0px -7px 8px #bababa, inset 0px 11px 4px #ebebeb;
-    color: #7E7E82;  
-}
-.nav-button:hover::before {
-    content: url('../img/highlight.svg');
-    width: 4px;
-    height: 32px;
-}
+
