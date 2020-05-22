@@ -1,0 +1,5 @@
+.left-side {
+    display: flex;
+    width: 320px;
+    position: absolute;
+}
