@@ -1,0 +1,27 @@
+@import url('../import.css');
+body {
+    margin: 0 auto;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid red;
+}
+.header {
+    display: flex;
+    padding: 0 24px;
+    width: auto;
+    height: 86px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-left: 16px;
+}
+.header__button--right {
+    margin-left: auto;
+}
