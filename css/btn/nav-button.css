@@ -17,7 +17,7 @@
 }
 .nav-button:hover::before {
     content: url('../../img/highlight.svg');
-    position: absolute;
+    position: relative;
     left: 0;
 }
 .nav-button:focus::before {
