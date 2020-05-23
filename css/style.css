@@ -29,10 +29,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 320px;
+    height: 1024px;
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px solid red;
     background: #FFFFFF;
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02);
 }
@@ -66,12 +66,74 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.text {
+    font-family: 'TTLakes', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: inherit;
+}
 .nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border: 1px solid black;
     padding: 24px 0;
+    flex-grow: 1;
 }
-
+.footer-button__left--icon {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/phone.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-button__left, .footer-button__middle {
+    margin-right: 16px;
+}
+.footer-button__middle--icon {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/chat.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-button__right--icon {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/profile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 32px 24px;
+}
+.footer__buttons {
+    margin-bottom: 16px;
+}
+.footer__mail {
+    margin-bottom: 12px;
+}
+.footer__contacts {
+    margin-bottom: 40px;
+}
+.link {
+    text-decoration: none;
+}
+.link-phone {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+}
+.footer__button {
+    background: white;
+}

@@ -6,3 +6,6 @@
 .button:active {
     transform: translateY(2px);
 }
+.button:focus {
+    color: #7E7E82;
+}
