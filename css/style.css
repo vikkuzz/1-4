@@ -142,6 +142,9 @@ body {
 .footer__button:focus {
     color: #7E7E82;
 }
+.footer__button:hover {
+    color: #7E7E82;
+}
 .language-button__text {
     color: inherit;
 }
