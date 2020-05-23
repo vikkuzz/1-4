@@ -15,16 +15,10 @@
     animation: button-pulse 0.8s 0s ease-out 1;
     color: #7E7E82;
 }
-.nav-button:hover::before {
-    content: url('../../img/highlight.svg');
-    position: relative;
-    left: 0;
-}
 .nav-button:focus::before {
     content: url('../../img/highlight.svg');
     position: absolute;
     left: 0;
-    
 }
 .nav-button:focus {
     color: #7E7E82;
