@@ -136,15 +136,16 @@ body {
     letter-spacing: -0.6px;
     color: #1B1C21;
 }
-.footer__button {
-    background: white;
+.language {
+    display: flex;
 }
-.footer__button:focus {
+.language-radio {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.language-radio:checked ~ .radio__text {
     color: #7E7E82;
 }
-.footer__button:hover {
-    color: #7E7E82;
-}
-.language-button__text {
-    color: inherit;
+.radio {
+    margin-right: 7px;
 }

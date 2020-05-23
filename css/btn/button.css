@@ -1,7 +1,8 @@
 .button {
     outline: none;
     cursor: pointer;
-    border: none; 
+    border: none;
+    -webkit-tap-highlight-color: transparent; 
 }
 .button:active {
     transform: translateY(2px);
