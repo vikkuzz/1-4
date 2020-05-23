@@ -13,6 +13,7 @@
     -webkit-animation: button-pulse 0.8s 0s ease-out 1;
     -moz-animation: button-pulse 0.8s 0s ease-out 1;
     animation: button-pulse 0.8s 0s ease-out 1;
+    color: #7E7E82;
 }
 .nav-button:hover::before {
     content: url('../../img/highlight.svg');
