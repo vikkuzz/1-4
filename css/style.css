@@ -36,7 +36,6 @@ body {
     left: 0;
     background: #FFFFFF;
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02);
-    overflow-y: auto;
 }
 .header {
     display: flex;
@@ -83,6 +82,7 @@ body {
     justify-content: flex-start;
     padding: 24px 0;
     flex-grow: 1;
+    overflow-y: auto;
 }
 .footer-button__left--icon {
     margin: auto;
