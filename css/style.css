@@ -34,6 +34,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    -webkit-overflow-y: auto;
+    -moz-overflow-y: auto;
+    -ms-overflow-y: auto;
     overflow-y: auto;
     background: #FFFFFF;
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02);
@@ -141,6 +144,8 @@ body {
 }
 .language-radio {
     -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
     appearance: none;
 }
 .language-radio:checked ~ .radio__text {
