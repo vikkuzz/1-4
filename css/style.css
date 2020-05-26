@@ -51,10 +51,10 @@ body {
 .logo {
     margin-left: 16px;
 }
-.header-button__right {
+.header__button-right {
     margin-left: auto;
 }
-.header-button__right--icon {
+.header__button-right--icon {
     margin: auto;
     width: 20px;
     height: 20px;
@@ -62,7 +62,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-.header-button__left--icon {
+.header__button-left--icon {
     margin: auto;
     width: 20px;
     height: 20px;
@@ -86,7 +86,7 @@ body {
     padding: 24px 0;
     flex-grow: 1;
 }
-.footer-button__left--icon {
+.footer__button-left--icon {
     margin: auto;
     width: 20px;
     height: 20px;
@@ -94,10 +94,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-.footer-button__left, .footer-button__middle {
+.footer__button-left, .footer__button-middle {
     margin-right: 16px;
 }
-.footer-button__middle--icon {
+.footer__button-middle--icon {
     margin: auto;
     width: 20px;
     height: 20px;
@@ -105,7 +105,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-.footer-button__right--icon {
+.footer__button-right--icon {
     margin: auto;
     width: 20px;
     height: 20px;
